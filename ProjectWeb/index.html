@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="content-header">
+            <div class="logo">
+                <h2>BiteDelight</h2>
+            </div>
+
+            <div class="nav-container">
+                <nav class="header-nav">
+                    <a href="./index.html" class="nav-tab active">home</a>
+                    <a href="./assets/html/recipes.html" class="nav-tab">recipes</a>
+                    <a href="#" class="nav-tab">about us</a>
+                    <a href="#" class="nav-tab">blog</a>
+                    <a href="#" class="nav-tab">contact us</a>
+                </nav>
+    
+                <a href="./assets/html/login.html" id="login-btn">Login</a>
+                <a href="#" id="user"><i class='bx bx-user-circle'></i></a>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <section id="home1">
+        <div class="home1-content">
+            <h2 id="title">Welcome to BiteDelight!</h2>
+            <div id="content">
+                <p>At Bite Delight, we celebrate the joy of cooking with easy-to-follow recipes from around the world. Whether you’re a beginner or a seasoned chef, our collection features simple dishes, complete with step-by-step photos and videos.</p>
+                <p>Join our community of food lovers, share your experiences, and discover tips to elevate your culinary skills. Let’s create delicious meals together and make every bite a delightful experience!</p>
+            </div>
+            <a href="#home2">Start exploring now!</a>
+        </div>
+    </section>
+
+
+    <section id="home2">
+        <div id="left">&lt;</div>
+        <div id="right">&gt;</div>
+
+        <div class="dot-container"></div>
+
+        <template id="dot-template">
+            <div class="dot"></div>
+        </template>
+
+        <div class="home2-content">
+
+            <div class="home2-content-container">
+                <div class="content-left">
+                    <img src="./assets/images/28_5_11zon.webp" alt="" loading="lazy">
+                </div>
+                <div class="content-right">
+                    <div class="small-right-content">
+                        <h3 id="title-right">Variety of formulas</h3>
+                        <p>From traditional to modern dishes, Bite Delight offers thousands of rich recipes for you to explore.</p>
+                        <a href="./assets/html/recipes.html">View recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home2-content-container">
+                <div class="content-left">
+                    <img src="./assets/images/30_8_11zon.webp" alt="" loading="lazy">
+                </div>
+                <div class="content-right">
+                    <div class="small-right-content">
+                        <h3 id="title-right">Cooking Community</h3>
+                        <p>Join other cooking enthusiasts, share experiences and get advice from experienced chefs.</p>
+                        <a>Join now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home2-content-container">
+                <div class="content-left">
+                    <img src="./assets/images/33_11_11zon.webp" alt="" loading="lazy">
+                </div>
+                <div class="content-right">
+                    <div class="small-right-content">
+                        <h3 id="title-right">Useful cooking tips</h3>
+                        <p>Discover practical cooking tips and tricks that will improve your skills and save time in the kitchen.</p>
+                        <a>Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <template id="recipe-template">
+        <div class="recipe">
+            <div class="recipe-filter">
+                 <div id="recipe-title"></div>
+                 <p id="recipe-info"></p>
+                 <a id="recipe-view">View recipe</a>
+            </div>
+         </div>
+    </template>
+
+
+
+    <section id="home3">
+
+        <h2>Featured Dish of the Week</h2>
+
+        <div class="recipe-container">
+            <div class="col-left">
+                <div class="row row1 main-row">
+
+                </div>
+                <div class="row row3">
+                    <div class="row left main-row">
+                        
+                    </div>
+                    <div class="row right main-row">
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-right">
+                <div class="row main-row">
+                    
+                </div>
+                <div class="row main-row">
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section id="home4">
+        <div id="title">Cooking tips</div>
+        <div id="description">Enhance your cooking skills with simple and effective tips</div>
+        <div class="tips-container">
+            <div class="tips-info-container">
+                <div id="img-container">
+                    <img src="./assets/images/31_9_11zon.webp" loading="lazy">
+                </div>
+
+                <div id="text-container">
+                    <h4>Choose fresh ingredients</h4>
+                    <p>Always choose fresh and high-quality ingredients to ensure your dishes have the best flavor and maximum nutrition</p>
+                </div>
+            </div>
+            <div class="tips-info-container">
+                <div id="img-container">
+                    <img src="./assets/images/25_1_11zon.webp" loading="lazy">
+                </div>
+
+                <div id="text-container">
+                    <h4>Organize your kitchen efficiently</h4>
+                    <p>A tidy kitchen space helps you save time and optimize your cooking process</p>
+                </div>
+            </div>
+            <div class="tips-info-container">
+                <div id="img-container">
+                    <img src="./assets/images/38_16_11zon.webp" loading="lazy">
+                </div>
+
+                <div id="text-container">
+                    <h4>Experiment with spices</h4>
+                    <p>Don't hesitate to experiment with different spices to create unique flavors for your dishes.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="home5">
+       <div class="top">
+        <h2>Join our community</h2>
+        <p>Subscribe to our newsletter to never miss the latest recipes and cooking news</p>
+       </div>
+        <div class="submit-container">
+            <input type="text" placeholder="Name" id="text1">
+            <input type="text" placeholder="Email" id="text2">
+            <a>Submit</a>
+        </div>
+    </section>
+
+
+   <footer class="footer">
+
+        
+
+        <div class="top-footer">
+            <div class="filter"></div>
+            <div class="top-logo-content">
+               <div class="container">
+                    <div id="logo">BiteDelight</div>
+                    <p>Sologan company</p>
+               </div>
+            </div>
+
+            <div class="top-content">
+                <div class="part">
+                    <h3>About us</h3>
+                    <div class="form">
+                        <p>Our mission</p>
+                        <p>We're hiring</p>
+                    </div>
+                </div>
+
+                <div class="part">
+                    <h3>Resources</h3>
+                    <div class="form">
+                        <p>Tutorials</p>
+                        <p>Brand assests</p>
+                    </div>
+                </div>
+                <div class="part">
+                    <h3>Contact us</h3>
+                    <div class="form">
+                        <p>321-555-5555</p>
+                        <p>info@company.com</p>
+                    </div>
+                </div>
+                <div class="part">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <div class="form">
+                        <input type="text" placeholder="Name"></input>
+                        <input type="text" placeholder="Email"></input>
+                        <a>Submit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="part">
+                <div class="icon-container">
+                    <div class="icon"><i class='bx bxl-facebook'></i></div>
+                    <div class="icon"><i class='bx bxl-twitter' ></i></div>
+                    <div class="icon"><i class='bx bx-wifi' ></i></div>
+                    <div class="icon"><i class='bx bxl-google'></i></div>
+                    <div class="icon"><i class='bx bx-dots-horizontal-rounded'></i></div>
+                </div>
+            </div>
+            <div class="part">
+                <h4>&copy;Copyright. All rights reserved.</h4>
+            </div>
+        </div>
+
+   </footer>
+
+</body>
+<script src="./assets/js/main.js"></script>
+</html>

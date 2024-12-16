@@ -1,0 +1,18 @@
+https://www.themealdb.com/api/json/v1/1/random.php
+
+https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata (search by name)
+
+https://www.themealdb.com/api/json/v1/1/search.php?f=a (search by first letter)
+
+https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772 (search by id)
+
+https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast (Filter by main ingredient)
+
+https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood (filter by category)
+
+https://www.themealdb.com/api/json/v1/1/filter.php?a=Canadian (filter by Area)
+
+https://www.themealdb.com/api/json/v1/1/categories.php (list all meal categories)
+
+https://restcountries.com/v3.1/all?fields=name,flags (flag api)
+
